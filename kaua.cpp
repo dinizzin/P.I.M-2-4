@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 
-//telas para cadastro de clientes, cadastro de funcionarios, cadastro de perfil e etc. - Kaua Castro
+//telas para cadastro de clientes, cadastro de funcionarios, cadastro de perfil e etc.
 
 int main()
 {
@@ -17,7 +17,7 @@ int main()
 	//parte do menu
     printf("+-------------------------------\n|\tSeja Bem Vindo(a), qual a sua necessidade?\n");
     printf ("|\n|\t1) Cadastro de funcionarios.\n|\t2) Cadastro de clientes.\n|\t3) Cadastro de perfil.\n|\t4) Voltar.\n|");
-    printf("\n|\tDigite a opÁ„o: ");
+    printf("\n|\tDigite a op√ß√£o: ");
     scanf("%d", &cad);
 
     if (cad == 1){
@@ -45,7 +45,7 @@ int main()
 
     printf ("|\n|\tCadastro executado com sucesso!\n");
 
-    printf ("|\n|\tDigite:\n|\t2) Ler cadastro.\n|\t1) Continuar cadastrando.\n|\t0) Fechar.\n|\n|\tDigite a opÁ„o: ");
+    printf ("|\n|\tDigite:\n|\t2) Ler cadastro.\n|\t1) Continuar cadastrando.\n|\t0) Fechar.\n|\n|\tDigite a op√ß√£o: ");
     scanf ("%d", &opcao);
     if(opcao==0){
     printf("+-------------------------------\n");
@@ -74,7 +74,7 @@ int main()
     }
     
     ////////////////////////////////////////////////////////
-    ////////////////separaÁao///////////////////////////////
+    ////////////////separa√ßao///////////////////////////////
     ////////////////////////////////////////////////////////
 
     if (cad == 2){
@@ -100,7 +100,7 @@ int main()
 
     printf ("|\n|\tCadastro executado com sucesso!\n");
     
-    printf ("|\n|\tDigite:\n|\t2) Ler cadastro.\n|\t1) Continuar cadastrando.\n|\t0) Fechar.\n|\n|\tDigite a opÁ„o: ");
+    printf ("|\n|\tDigite:\n|\t2) Ler cadastro.\n|\t1) Continuar cadastrando.\n|\t0) Fechar.\n|\n|\tDigite a op√ß√£o: ");
     scanf ("%d", &opcao);
     if(opcao==0){
     printf("+-------------------------------\n");
@@ -129,14 +129,14 @@ int main()
 	}
 
     ///////////////////////////////////////////////////////
-    /////////////////////separaÁao/////////////////////////
+    /////////////////////separa√ßao/////////////////////////
     ///////////////////////////////////////////////////////
 
     if (cad == 3) { //abrindo arquivo e colocando a variavel no file
     FILE *file;
 
     file = fopen("test3.txt", "a");
-    if(file == NULL) { //"null" = n„o existe arquivo
+    if(file == NULL) { //"null" = n√£o existe arquivo
     printf ("Erro na abertura do arquivo!");
     return 1;
     }
@@ -155,7 +155,7 @@ int main()
 
     printf ("|\n|\tCadastro executado com sucesso!\n");
     
-    printf ("|\n|\tDigite:\n|\t2) Ler cadastro.\n|\t1) Continuar cadastrando.\n|\t0) Fechar.\n|\n|\tDigite a opÁ„o: ");
+    printf ("|\n|\tDigite:\n|\t2) Ler cadastro.\n|\t1) Continuar cadastrando.\n|\t0) Fechar.\n|\n|\tDigite a op√ß√£o: ");
     scanf ("%d", &opcao);
     if(opcao==0){
     printf("+-------------------------------\n");
