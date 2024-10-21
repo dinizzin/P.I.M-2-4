@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <locale.h>
 #include <string.h>
-//telas de relatorios - Guilherme Diniz
+//telas de relatorios
 
 void relatorio();
 
@@ -17,14 +17,14 @@ void relatorio(){
 
 //tela de menu
 	printf("+-------------------------------\n|\tSeja Bem Vindo(a), Qual a sua necessidade hoje?\n");
-	printf ("|\n|\t1) Escrever relatórios.\n|\t2) Ler relatórios.\n|\t3) Voltar.\n|\t4) Sair.\n");
-    printf("|\n|\tDigite a opção: ");
+	printf ("|\n|\t1) Escrever relatÃ³rios.\n|\t2) Ler relatÃ³rios.\n|\t3) Voltar.\n|\t4) Sair.\n");
+    printf("|\n|\tDigite a opÃ§Ã£o: ");
     scanf("%d", &op);
     
 //caso selecione uma opcao invalida ele reinicia
     if((op!=1)&&(op!=2)){
     		if((op!=3)&&(op!=4)){
-    	printf("|\n|\tOpção invalida!");
+    	printf("|\n|\tOpÃ§Ã£o invalida!");
     	system("rrelatorio.bat");
     }
 	}
